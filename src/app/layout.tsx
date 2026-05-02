@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     default: "Suman Sasmal | Frontend Architect & Team Lead",
     template: "%s | Suman Sasmal", // Automatically appends your name to sub-pages like "Projects | Suman Sasmal"
   },
-  description: "Professional portfolio of Suman Sasmal, a Team Lead and Frontend Architect specializing in React, Next.js, GSAP, and immersive web experiences.",
+  description: "Explore the digital archive of Suman Sasmal, a Frontend Architect and Team Lead specializing in React, Next.js, and immersive web experiences.",
   keywords: ["Suman Sasmal", "Frontend Architect", "Team Lead", "React Developer", "Next.js", "GSAP", "Creative Developer", "Portfolio"],
   authors: [{ name: "Suman Sasmal" }],
   creator: "Suman Sasmal",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     siteName: "Suman Sasmal Portfolio",
     images: [
       {
-        url: "/suman.jpeg", // This references a file we will put in your public folder
+        url: "/suman.jpg", // This references a file we will put in your public folder
         width: 1200,
         height: 630,
         alt: "Suman Sasmal - Frontend Architect Portfolio Preview",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Suman Sasmal | Frontend Architect & Team Lead",
     description: "Explore the digital archive and interactive web experiences engineered by Suman Sasmal.",
-    images: ["/suman.jpeg"],
+    images: ["/suman.jpg"],
   },
 
   // Search Engine Crawling Rules
