@@ -79,9 +79,9 @@ export default function Home() {
           <Link href="/projects" className="flex w-full sm:w-auto justify-center items-center gap-2 bg-white text-charcoal-900 px-8 py-4 rounded-full font-bold hover:bg-zinc-200 hover:scale-105 active:scale-95 transition-all duration-300">
             View My Work <ArrowRight size={18} />
           </Link>
-          <a href="mailto:sasmalsuman04@gmail.com" className="w-full sm:w-auto text-center px-8 py-4 rounded-full font-bold text-zinc-300 border border-charcoal-700 hover:bg-charcoal-800 hover:text-white transition-all duration-300">
+          <Link href="/contact" className="w-full sm:w-auto text-center px-8 py-4 rounded-full font-bold text-zinc-300 border border-charcoal-700 hover:bg-charcoal-800 hover:text-white transition-all duration-300">
             Contact Me
-          </a>
+          </Link>
         </div>
       </section>
 
@@ -261,12 +261,12 @@ export default function Home() {
             Ready to architect something exceptional together?
           </p>
           {/* Re-enable pointer events just for the button */}
-          <a
-            href="mailto:sasmalsuman04@gmail.com"
+          <Link
+            href='/contact'
             className="pointer-events-auto bg-charcoal-800 text-white border border-charcoal-600 px-10 py-5 rounded-full font-bold text-lg hover:bg-charcoal-700 hover:border-cyan-400 hover:scale-105 transition-all duration-300 shadow-xl"
           >
             Start a Conversation
-          </a>
+          </Link>
         </div>
       </section>
 

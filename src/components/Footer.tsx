@@ -7,6 +7,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa"; // Added react-icons
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
+import VisitorCounter from "@/components/VisitorCounter";
 
 if (typeof window !== "undefined") {
   gsap.registerPlugin(ScrollTrigger);
@@ -86,15 +87,9 @@ export default function Footer() {
         </p>
 
         {/* The Animated Visitor Counter */}
-        <div className="flex items-center gap-3 bg-charcoal-900 border border-charcoal-800 px-4 py-2 rounded-full">
-          <Activity size={16} className="text-accent animate-pulse" />
-          <div className="flex items-baseline gap-1.5 text-sm">
-            <span className="text-zinc-400 font-medium">Total Visitors:</span>
-            <span ref={countRef} className="text-white font-bold tabular-nums tracking-tight">
-              0
-            </span>
-          </div>
-        </div>
+        <div className="mt-4 md:mt-0">
+        <VisitorCounter />
+      </div>
       </div>
     </footer>
   );
