@@ -14,6 +14,7 @@ import TechArsenalParticles from "@/components/TechArsenalParticles";
 import CameraParticles from "@/components/CameraParticles";
 import LeafParticles from "@/components/LeafParticles";
 import FooterParticles from "@/components/FooterParticles";
+import GithubDashboard from "@/components/GithubDashboard";
 
 if (typeof window !== "undefined") {
   gsap.registerPlugin(ScrollTrigger);
@@ -176,6 +177,8 @@ export default function Home() {
           </Link>
         </div>
       </section>
+
+      <GithubDashboard/>
 
       {/* 4. TECHNICAL ARSENAL */}
       <section className="relative overflow-hidden py-24 px-6 bg-charcoal-800/20 border-y border-charcoal-800">
