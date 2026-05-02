@@ -29,7 +29,7 @@ export async function submitContactMessage(formData: FormData) {
       from: "Portfolio Inquiry <onboarding@resend.dev>",
       to: "sasmalsuman04@gmail.com", // Your actual email address
       subject: `🚀 New Project Inquiry from ${name}`,
-      reply_to: email, // This allows you to hit "Reply" in Gmail and it goes straight to the client
+      replyTo: email, // This allows you to hit "Reply" in Gmail and it goes straight to the client
       html: `
         <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto; background-color: #121212; color: #ffffff; padding: 40px; border-radius: 10px;">
           <h2 style="color: #38bdf8; margin-top: 0;">New Project Inquiry</h2>
