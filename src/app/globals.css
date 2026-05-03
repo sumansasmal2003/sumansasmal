@@ -1,10 +1,12 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
   --color-charcoal-900: #121212;
   --color-charcoal-800: #1e1e1e;
   --color-charcoal-700: #2d2d2d;
-  --color-accent: #38bdf8; /* Soft sky blue for subtle highlights */
+  --color-accent: #38bdf8;
 }
 
 :root {
@@ -13,7 +15,5 @@
 }
 
 body {
-  background-color: var(--background);
-  color: var(--foreground);
   -webkit-font-smoothing: antialiased;
 }
